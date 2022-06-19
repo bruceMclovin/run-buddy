@@ -34,18 +34,20 @@
     </header>
 
     <!-- hero -->
-    <section>
-        <div>
+    <section class="hero">
+        <div class="hero-form">
             <h3> Get Started Today</h3>
             <p> Fill out this form</p>
             <!--form element-->
             <form>
-                <label for="name"> enter yo name:</label>
-                <input type="text" placeholder="your name" name="name" id="name" />
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+                
                 <label for="email">Enter email address:</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <input type="text" placeholder="Email Address" name="email" id="email" class="form-input">
+                
                 <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input">
                 <p>
                     have you worked with trainer?
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -57,8 +59,8 @@
                     are you 18?
                     <input type="checkbox" name="age-verify" id="yes-am18" />
                     <label for="yes-am18">yes</label>
-                    <input type="checkbox" name="age-verify" id="no-im-a-baby" />
-                    <label for="no-im-a-baby">no</label>
+                    <input type="checkbox" name="age-verify" id="no-im-not" />
+                    <label for="no-im-not">no</label>
                 </p>
                     <button type="submit">
                         Get Running
@@ -68,13 +70,39 @@
     </section>
 
     <!-- what we do -->
-    <section>
+    <section id="what-we-do">
         <h2>What We Do </h2>
+        <p>
+            butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+          </p>
     </section>
 
     <!-- what you do -->
-    <section>
+    <section id="what-you-do">
         <h2> What You Do </h2>
+        <div>
+            <img src="./assets/images/step-1.svg" alt=""/>
+            <h3>Step 1: Fill Out the Form Above.</h3>
+            <p>You're already here, so why not?</p>
+          </div>
+        
+          <div>
+            <img src="./assets/images/step-2.svg" alt="" />
+            <h3>Step 2: Consult with One of Our Trainers.</h3>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+          </div>
+        
+          <div>
+            <img src="./assets/images/step-3.svg" alt="" />
+            <h3>Step 3: Get Running.</h3>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+          </div>
+        
+          <div>
+            <img src="./assets/images/step-4.svg" alt="" />
+            <h3>Step 4: See Results.</h3>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+          </div>
     </section>
 
     <!-- meet the trainers -->
